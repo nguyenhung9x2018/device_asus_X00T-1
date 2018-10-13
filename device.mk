@@ -500,4 +500,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# ZenMotions
+PRODUCT_PACKAGES += \
+    Zenmotions
+
 $(call inherit-product, vendor/asus/X00T/X00T-vendor.mk)
